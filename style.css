@@ -1,0 +1,263 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contact-btn {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.hero {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.cta {
+  margin-top: 30px;
+}
+
+.btn {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f0f0f0; /* Light background color */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem; /* Adjust padding as needed */
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff; /* White background for hero section */
+  padding: 4rem 0; /* Adjust padding as needed */
+}
+
+.hero-content {
+  flex: 1; /* Make hero-content take up half the space */
+  padding-right: 2rem; /* Add some spacing between content and image */
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  color: #666; /* Gray text color */
+}
+
+.hero-image {
+  flex: 1; /* Make hero-image take up half the space */
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  height: auto;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem; /* Adjust padding as needed */
+}
+
+/* Curriculum Section */
+.curriculum {
+  margin-top: 4rem; /* Add spacing between sections */
+  text-align: center;
+}
+
+.curriculum h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.curriculum-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+  width: 30%; /* Adjust width as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.navigation{
+  text-align: center;
+}
+
+
+.prev, .next {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+background: rgb(254, 163, 1);
+color: #fff;
+}
+
+/* Add hover effects for buttons */
+.btn:hover, .prev:hover, .next:hover {
+  opacity: 0.8;
+}
+
+
+.stories {
+  text-align: center;
+}
+
+.stories h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-gap: 2rem;
+}
+
+.story {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.story-date {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.story-title {
+  font-size: 1.1rem;
+}
+
+/* .view-all {
+  border: 5px solid ;
+ 
+
+} */
+
+.view-all a {
+ text-decoration: none;
+ color: white;
+ background-color: black;
+ border: 15px solid black;
+ border-radius: 6px;
+ 
+}
+
+.story-date{
+  border: 2px solid;
+  background-color: rgb(60, 216, 232);
+  border-radius: 12px ;
+  border: none;
+  width: 75px;
+  /* margin-top: ; */
+  color: #333;
+}
+
+.paragraph{
+  color: #555;
+}
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 768px) {
+    .pillar, .vision-item {
+      width: 100%;
+      float: none;
+      margin-bottom: 20px;
+    }
+  }
