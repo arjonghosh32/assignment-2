@@ -282,10 +282,10 @@
   
         }
   
-        /* footer design */
+        
           
    .footer { 
-            background-color: skyblue;
+            background-color: rgb(16, 187, 255);
            }
 .footer_units{
            display: flex;
@@ -293,7 +293,7 @@
            align-items: center;
           
           padding: 123px 150px;
-           margin-top: 70px;
+           /* margin-top: 70px; */
 }
 
 .left_sideFooter{
