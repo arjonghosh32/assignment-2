@@ -1,3 +1,4 @@
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -7,7 +8,19 @@ header {
   background-color: #f0f0f0;
   padding: 20px 0;
 }
+.Child-1{
+  color: #ff9900;
+}
 
+.Child-2{
+  color: skyblue;
+}
+.Child-3{
+  color: #AAEFCA;
+}
+.Child-4{
+  color: #5D58EF;
+}
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -48,6 +61,7 @@ nav a {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
+  
 }
 
 .hero {
@@ -72,6 +86,12 @@ nav a {
   border: none;
   border-radius: 5px;
 }
+.Empowering{
+  color: #ff9900;
+}
+.towards-vision{
+  color: rgb(1, 153, 212);
+}
 
 body {
   font-family: sans-serif;
@@ -95,8 +115,8 @@ body {
 }
 
 .hero-content {
-  flex: 1; /* Make hero-content take up half the space */
-  padding-right: 2rem; /* Add some spacing between content and image */
+  flex: 1; 
+  padding-right: 2rem; 
 }
 
 .hero-content h1 {
@@ -105,16 +125,18 @@ body {
 }
 
 .hero-content p {
-  color: #666; /* Gray text color */
+  color: #666;
 }
 
 .hero-image {
-  flex: 1; /* Make hero-image take up half the space */
-  text-align: center;
+  flex: 1;
+  
+  text-align:center;
+  
 }
 
 .hero-image img {
-  max-width: 100%; /* Ensure image doesn't exceed container width */
+  max-width: 100%; 
   height: auto;
 }
 
@@ -252,6 +274,54 @@ color: #fff;
 .paragraph{
   color: #555;
 }
+
+.last-card{
+  display: flex;
+  gap: 20px;
+  right: 20%;
+}
+
+.card-1{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+  width: 30%; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 470px;
+  width: 530px;
+}
+.img-1{
+  
+}
+
+.Beautiful{
+  color: #666;
+}
+
+.card-2{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+  width: 30%; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 225px;
+  width: 270px;
+  /* display: flex; */
+}
+
+.img-2{
+  margin-left: 0;
+}
+.img-3{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+  width: 30%; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 225px;
+  width: 270px;
+}
+
   /* Responsive Styles */
   
   @media screen and (max-width: 768px) {
