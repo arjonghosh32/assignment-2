@@ -335,68 +335,76 @@
 }
 
 
-@media screen and (max-width:576px) {
-     
-    .navbar{ border-bottom: 2px solid #ddd;
-             padding: 10px;}
-      .Title{ display: none;
-                 
-      }
-      .btn{ display: none;}
-
-      .items{ display: none;}
-
-      .nav_btn i{ font-size: 25px;
-                   display: block;
-                  }
-
-         .cover{
-                   flex-direction: column-reverse;
-         }  
-         .cover img{ width: 100%;
-                     padding: 0 20px;}   
-       .left_side{
-                    text-align: center;
-       }  
-     .card{ flex-direction: column;
-            gap: 12px;}  
-      .card_items{ 
-                  width: 97%;
-                  margin: 0px 10px;
-      }  
-      .Standard{ font-size: 1.4rem;}  
-      .lessThen_greaterThen { display: none;} 
-      .right_item{ display: none;} 
-      .small_storyPart { grid-template-columns: repeat(2,1fr);
-                         gap: 5px;}
-      .stories_item{ width: 100%} 
-
-      .stories_item img{ width: 100%;}
+@media screen and (max-width: 576px) {
+  .navber, .banner-container, .ccl-item, .foot-container{
+      flex-direction: column;
+      padding: 0px 15px;
+  }
+  .logo, .nav-item, .nav-btn{
+      display: none;
+  }
+  .nav-logo{
+      width: 100%;
+      justify-content: space-between;
+      border-bottom: 1px solid #FEA301;
+      padding-bottom: 12px;
       
-      .story_btnss{
-                    padding: 5px 11px;
-                    font-size: small;
-                    right: 70px;
-                    bottom: 120px;
-                    /* height: ; */
-                                  
-      }
-      .story_btnss3{ padding: 8px 11px;
-                     bottom: 150px;
-                     right: 10px;
-                     }  
-       .story_btnss4{ bottom: 140px;} 
-       .view_all{ text-align: center;}  
-                
-       
-       .footer_units{
-                         flex-direction: column;
-                         gap: 40px;
-                         margin-right: 100px;
-                         
-        }
-        .middle_sideFooter{ margin-right: 140px;}
-        .right_sideFooter{ margin-right: 50px;}
-                   
+  }
+  .menu-icon{
+      display: block;
+      
+  }
+  marquee{
+      display: block;
+  }
+/* Banner Responsive  */
+  .banner-container{
+      flex-direction: column-reverse;
+  }
+  .br{
+      display: none;
+  }
+  .banner-title{
+      font-size: 2.5rem;
+      padding: 10px 0px;
+  }
+  .banner-info{
+      text-align: center;
+  }
+  .banner-img img{
+      width: 100%;
+      margin-top: 50px;
+  }
+/* Curriculum resoposive  */
+  .ccl-title{
+      margin: 70px 0px 20px 0px;
+      padding: 0;
+      font-size: 31px;
+  }
+  .ccl-card{
+      margin-bottom: 20px;
+  }
+  .ccl-icon{
+      display: none;
+  }
+/* Story Responsive  */
+  .story-item2{
+      padding: 0px 10px;
+      overflow: hidden;
+  }
+  #hidden{
+      display: block;
+  }
+  .story-item1{
+      display: none;
+  }
+  .card2-btn button{
+      left: 20px;
+  }
+  .story2-title{
+      padding: 0px 22px 18px 22px;
+  }
+  .story-view-btn button{
+      margin: 30px 0px 37px 0px;
+  } 
 }
-
