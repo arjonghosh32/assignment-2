@@ -121,7 +121,7 @@
   .card_Title{
                 font-weight: 900;
                 font-size: 1.6rem;
-                margin-top: 32px;
+                /* argin-top: 32px;  */
   }
 
   .card_description{ font-size: 15px;
@@ -388,23 +388,23 @@
       display: none;
   }
 /* Story Responsive  */
-  .story-item2{
-      padding: 0px 10px;
-      overflow: hidden;
-  }
-  #hidden{
-      display: block;
-  }
-  .story-item1{
-      display: none;
-  }
-  .card2-btn button{
-      left: 20px;
-  }
-  .story2-title{
-      padding: 0px 22px 18px 22px;
-  }
-  .story-view-btn button{
-      margin: 30px 0px 37px 0px;
-  } 
+.story-item2{
+  padding: 0px 10px;
+  overflow: hidden;
+}
+#hidden{
+  display: block;
+}
+.story-item1{
+  display: none;
+}
+.card2-btn button{
+  left: 20px;
+}
+.story2-title{
+  padding: 0px 22px 18px 22px;
+}
+.story-view-btn button{
+  margin: 30px 0px 37px 0px;
+} 
 }
