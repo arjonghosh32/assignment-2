@@ -7,16 +7,18 @@
     font-style: normal;
   }
 
-  *{ margin: 0;
-    padding: 0;
-   box-sizing: border-box;}
+*{ margin: 0;
+   padding: 0;
+  box-sizing: border-box;}
+
+/* shared style in website */
 
 .display_flex{
                  display: flex;
 
 }
 
-
+/* navbar design start */
 
 .navbar{   
            max-width: 1160px;
@@ -56,11 +58,11 @@
                    
 }
 
+/* navbar design end */
 
 
 
-
-
+/* cover design start */
 
  .cover{ max-width: 1158px;
         margin: 10px auto;
@@ -88,7 +90,7 @@
               border: none;
         }
 
-
+/* cover design end */
 
 .main{
           background-image: url('../assets/bg.png');
@@ -121,7 +123,7 @@
   .card_Title{
                 font-weight: 900;
                 font-size: 1.6rem;
-                /* argin-top: 32px;  */
+                margin-top: 32px;
   }
 
   .card_description{ font-size: 15px;
@@ -155,7 +157,7 @@
                          border-radius: 30px;
                         }
 
-                        
+                        /* card style end */
 
 
    .our_storieTitle{ font-size: 2.8rem;
@@ -164,16 +166,13 @@
               margin-top: 65px;}  
 
 
-              
+              /* story design part */
 .story_bg{
   
   background-color: #ffffff;
-  background-image:url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-  
-  
+  background-image: linear-gradient(0deg, #ffffff 0%, #ffffff 50%, #fcf6da 100%)
+  ,url(../assets/bg.png); 
 }
-
-
 
  .Stories {   
               max-width:1160px;
@@ -221,13 +220,12 @@
                     padding: 37px 50px 33px;
                     background-color: #ffff;
  }   
-
  
  .story_btn1{ padding: 14px 19px;
               color: #ffff;
               border-radius: 19px;
             border: none;
-            background-color: #3CD8E8;
+            background-color: chartreuse;
            position: absolute;
            bottom: 275px; left: 160px;
           }
@@ -235,9 +233,9 @@
  .story_btn2{
                  padding: 14px 20px;
                  color: #ffff;
-                 border-radius: 19px; 
+                 border-radius: 19px;
                border: none;
-               background-color:#95B226;
+               background-color: rgb(255, 0, 153);
                position: absolute;
                bottom: 95px;
                left: 58px;
@@ -247,7 +245,7 @@
                  color: #ffff;
                  border-radius: 19px;
                border: none;
-               background-color: #5D58F0;
+               background-color: rgb(225, 255, 0);
                position: absolute;
                bottom: 95px;
                left: 55px;
@@ -257,7 +255,7 @@
                    color: #ffff;
                    border-radius: 19px;
                  border: none;
-                 background-color: #95B226;
+                 background-color: rgb(0, 170, 255);
                  position: absolute;
                bottom: 95px;
                left: 55px;
@@ -267,7 +265,7 @@
                   color: #ffff;
                   border-radius: 19px;
                 border: none;
-                background-color: #95B226;
+                background-color: rgb(255, 0, 0);
                 position: absolute;
                 bottom:95px;
                 left: 60px;
@@ -282,10 +280,10 @@
   
         }
   
-        
+        /* footer design */
           
    .footer { 
-            background-color: rgb(16, 187, 255);
+            background-color: skyblue;
            }
 .footer_units{
            display: flex;
@@ -293,7 +291,7 @@
            align-items: center;
           
           padding: 123px 150px;
-           /* margin-top: 70px; */
+           margin-top: 70px;
 }
 
 .left_sideFooter{
@@ -335,76 +333,68 @@
 }
 
 
-@media screen and (max-width: 576px) {
-  .navber, .banner-container, .ccl-item, .foot-container{
-      flex-direction: column;
-      padding: 0px 15px;
-  }
-  .logo, .nav-item, .nav-btn{
-      display: none;
-  }
-  .nav-logo{
-      width: 100%;
-      justify-content: space-between;
-      border-bottom: 1px solid #FEA301;
-      padding-bottom: 12px;
+@media screen and (max-width:576px) {
+     
+    .navbar{ border-bottom: 2px solid #ddd;
+             padding: 10px;}
+      .Title{ display: none;
+                 
+      }
+      .btn{ display: none;}
+
+      .items{ display: none;}
+
+      .nav_btn i{ font-size: 25px;
+                   display: block;
+                  }
+
+         .cover{
+                   flex-direction: column-reverse;
+         }  
+         .cover img{ width: 100%;
+                     padding: 0 20px;}   
+       .left_side{
+                    text-align: center;
+       }  
+     .card{ flex-direction: column;
+            gap: 12px;}  
+      .card_items{ 
+                  width: 97%;
+                  margin: 0px 10px;
+      }  
+      .Standard{ font-size: 1.4rem;}  
+      .lessThen_greaterThen { display: none;} 
+      .right_item{ display: none;} 
+      .small_storyPart { grid-template-columns: repeat(2,1fr);
+                         gap: 5px;}
+      .stories_item{ width: 100%} 
+
+      .stories_item img{ width: 100%;}
       
-  }
-  .menu-icon{
-      display: block;
-      
-  }
-  marquee{
-      display: block;
-  }
-/* Banner Responsive  */
-  .banner-container{
-      flex-direction: column-reverse;
-  }
-  .br{
-      display: none;
-  }
-  .banner-title{
-      font-size: 2.5rem;
-      padding: 10px 0px;
-  }
-  .banner-info{
-      text-align: center;
-  }
-  .banner-img img{
-      width: 100%;
-      margin-top: 50px;
-  }
-/* Curriculum resoposive  */
-  .ccl-title{
-      margin: 70px 0px 20px 0px;
-      padding: 0;
-      font-size: 31px;
-  }
-  .ccl-card{
-      margin-bottom: 20px;
-  }
-  .ccl-icon{
-      display: none;
-  }
-/* Story Responsive  */
-.story-item2{
-  padding: 0px 10px;
-  overflow: hidden;
+      .story_btnss{
+                    padding: 5px 11px;
+                    font-size: small;
+                    right: 70px;
+                    bottom: 120px;
+                    
+                                  
+      }
+      .story_btnss3{ padding: 8px 11px;
+                     bottom: 150px;
+                     right: 10px;
+                     }  
+       .story_btnss4{ bottom: 140px;} 
+       .view_all{ text-align: center;}  
+                
+       
+       .footer_units{
+                         flex-direction: column;
+                         gap: 40px;
+                         margin-right: 100px;
+                         
+        }
+        .middle_sideFooter{ margin-right: 140px;}
+        .right_sideFooter{ margin-right: 50px;}
+                   
 }
-#hidden{
-  display: block;
-}
-.story-item1{
-  display: none;
-}
-.card2-btn button{
-  left: 20px;
-}
-.story2-title{
-  padding: 0px 22px 18px 22px;
-}
-.story-view-btn button{
-  margin: 30px 0px 37px 0px;
-} 
-}
+
